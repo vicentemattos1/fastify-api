@@ -1,0 +1,19 @@
+{
+  "extends": ["@rocketseat/eslint-config/node"],
+  "rules": {
+    "camelcase": [
+      "error",
+      {
+        "properties": "never",
+        "ignoreDestructuring": true
+      }
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ]
+  }
+}
